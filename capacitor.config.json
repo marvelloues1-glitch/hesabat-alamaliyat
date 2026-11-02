@@ -1,0 +1,12 @@
+{
+  "appId": "com.hesabat.alamaliyat",
+  "appName": "حسابات العمليات",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_icon",
+      "iconColor": "#16845b"
+    }
+  }
+}
