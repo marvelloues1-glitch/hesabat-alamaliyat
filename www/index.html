@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#16845b">
+<title>حسابات العمليات</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header class="topbar"><div><div class="eyebrow">إدارة الحسابات</div><h1 id="page-title">العمليات</h1></div><button class="icon-btn" id="header-action" aria-label="إجراء">☷</button></header>
+  <main id="view" class="view"></main>
+  <nav class="bottom-nav" aria-label="التنقل">
+    <button data-tab="operations" class="nav-item active"><span>▦</span><small>العمليات</small></button>
+    <button data-tab="expenses" class="nav-item"><span>↗</span><small>المصاريف</small></button>
+    <button data-tab="settings" class="nav-item"><span>⚙</span><small>الإعدادات</small></button>
+  </nav>
+</div>
+<div id="toast" role="status"></div>
+<script src="bundle.js"></script>
+</body>
+</html>
